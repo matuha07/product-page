@@ -3,17 +3,34 @@
 </script>
 
 <template>
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
-
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center mt-4">Учёт товаров</h1>
+        <form action="">
+          <div class="mb-3">
+            <label for="name" class="form-label">Название</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="mb-3">
+            <label for="date" class="form-label">Дата приема товара</label>
+            <input type="date" class="form-control" id="date">
+          </div>
+          <div class="mb-3">
+            <label for="count" class="form-label">Количество</label>
+            <input type="number" class="form-control" id="count">
+          </div>
+          <div class="mb-3">
+            <label for="price" class="form-label">Цена</label>
+            <input type="number" class="form-control" id="price">
+          </div>
+          <div class="mb-2 text-center">
+            <button type="button" class="btn btn-outline-danger">Добавить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </template>
 
-<style>
-
-</style>
+<style></style>
