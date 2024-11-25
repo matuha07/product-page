@@ -42,12 +42,18 @@
         <p class="card-text">123412341235$</p>
         <p class="card-text">x0</p>
       </div>
-      <div class="card-footer text-end">
+      <div class="card-footer">
         <button class="btn btn-outline-danger">Удалить</button>
       </div>
     </div>
   </div>
+
 </div>
+<div class="row my-4">
+    <div class="col">
+      <h3 class="text-end">Общая сумма: 0$</h3>
+    </div>
+  </div>
   </div>
 </template>
 
